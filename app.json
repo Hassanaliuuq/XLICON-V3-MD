@@ -10,7 +10,7 @@
     "SUDO": {
       "description": "Add Owwner Number Here",
       "required": true,
-      "value": "923184070915"
+      "value": "923110552136"
     },
     "SUDO_NAME": {
       "description": "Add Your Name Here",
@@ -20,7 +20,7 @@
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
       "required": true,
-      "value": ""
+      "value": "HRKU-b8e0ab86-d052-40ff-9926-92f62143c6d4"
     },
      "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
@@ -40,22 +40,22 @@
      "PACK_NAME": {
       "description": "Enter Pack Name Here",
       "required": false,
-      "value": "𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑"
+      "value": "𝐗𝐋𝐈𝐂𝐎𝐍"
      },
      "AUTHER_NAME": {
       "description": "Enter Auther Name Here",
       "required": false,
-      "value": "ＭＡＤＥ   ＢＹ   ＳＡＬＭＡＮ"
+      "value": "HEHE"
      },
      "GL_VIP": {
       "description": "Enter Premium Members Numbers [ Each Saperated By Comma ]",
       "required": false,
-      "value": "923184070915,923264476886"
+      "value": "923110552136"
      },
     "WELCOME_MSG": {
       "description": "Welcome Message True/False",
       "required": false,
-      "value": "true"
+      "value": "false"
      },
     "MENU_DESIGN": {
       "description": "Choose Any Style v1 => v8",
