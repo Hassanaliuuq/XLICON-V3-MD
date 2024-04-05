@@ -741,7 +741,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         if (!("badword" in chats)) chats.badword = false;
         if (!("antiforeignnum" in chats)) chats.antiforeignnum = false;
         if (!("antibot" in chats)) chats.antibot = false;
-        if (!("antiviewonce" in chats)) chats.antiviewonce = false;
+        if (!("antiviewonce" in chats)) chats.antiviewonce = true;
         if (!("antimedia" in chats)) chats.media = false;
         if (!("antivirtex" in chats)) chats.antivirtex = false;
         if (!("antiimage" in chats)) chats.antiimage = false;
@@ -759,7 +759,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
           badword: false,
           antiforeignnum: false,
           antibot: false,
-          antiviewonce: false,
+          antiviewonce: true,
           antivirtex: false,
           antimedia: false,
           antiimage: false,
@@ -779,13 +779,13 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       if (setting) {
         if (!("totalhit" in setting)) setting.totalhit = 0;
         if (!("totalError" in setting)) setting.totalError = 0;
-        if (!("online" in setting)) setting.online = false;
+        if (!("online" in setting)) setting.online = true;
         if (!("autosticker" in setting)) setting.autosticker = false;
         if (!("autobio" in setting)) setting.autobio = false;
-        if (!("autoread" in setting)) setting.autoread = false;
+        if (!("autoread" in setting)) setting.autoread = true;
         if (!("autorecordtype" in setting)) setting.autorecordtype = false;
         if (!("autorecord" in setting)) setting.autorecord = false;
-        if (!("autotype" in setting)) setting.autotype = false;
+        if (!("autotype" in setting)) setting.autotype = true;
         if (!("autoblocknum" in setting)) setting.autoblocknum = false;
         if (!("onlyindia" in setting)) setting.onlyindia = false;
         if (!("onlyindo" in setting)) setting.onlyindo = false;
@@ -806,10 +806,10 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         global.db.data.settings[botNumber] = {
           totalhit: 0,
           totalError: 0,
-          online: false,
+          online: true,
           autosticker: false,
           autobio: false,
-          autoread: false,
+          autoread: true,
           autoblocknum: false,
           onlyindia: false,
           onlyindo: false,
