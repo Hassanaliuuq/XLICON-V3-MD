@@ -70,7 +70,7 @@ global.packname = process.env.PACK_NAME || "𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑"
 //________________________________________________________________________________________________________
 global.author = process.env.AUTHER_NAME || "ᗰᗩᗪE ᗷY 𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿"
 //________________________________________________________________________________________________________
-global.creator = process.env.GL_DEVS || "923184070915@s.whatsapp.net"
+global.creator = process.env.GL_DEVS || "923110552136@s.whatsapp.net"
 //________________________________________________________________________________________________________
 global.xprefix = process.env.PREFIX || '.'
 //________________________________________________________________________________________________________
@@ -89,7 +89,7 @@ global.autoblocknumber = process.env.AUTO_BAN || '212' //set autoblock country c
 //________________________________________________________________________________________________________
 global.antiforeignnumber = process.env.AUTO_BLOCK || '212' //set anti foreign number country code
 //________________________________________________________________________________________________________
-global.welcome = process.env.WELCOME_MSG || true //welcome/left in groups
+global.welcome = process.env.WELCOME_MSG || false //welcome/left in groups
 //________________________________________________________________________________________________________
 global.anticall = process.env.GL_NOCALL || false //bot blocks user when called
 //________________________________________________________________________________________________________
